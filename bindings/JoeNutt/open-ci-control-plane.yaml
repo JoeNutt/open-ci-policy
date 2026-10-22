@@ -10,7 +10,10 @@ policies:
       application: ["internal/change/application/**"]
       adapter:     ["internal/change/forge/**", "internal/change/engine/**",
                     "internal/change/ingest/**", "internal/change/rules/**",
-                    "internal/change/random/**"]
+                    "internal/change/random/**", "internal/change/httpapi/**",
+                    "internal/change/policy/**", "internal/change/jsonlines/**",
+                    "internal/change/coverage/**", "internal/change/extract/**",
+                    "internal/change/configuration/**"]
       driver:      ["cmd/**"]
 tests:
   workflow: open-ci-tests.yml
