@@ -17,6 +17,7 @@ policies:
       driver:      ["cmd/**"]
 tests:
   workflow: open-ci-tests.yml
+  selection: enforce
   minimisation: shadow
   always_run:
     - github.com/JoeNutt/open-ci-control-plane/internal/change/domain
